@@ -1,0 +1,288 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    outline: none;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+/************ PAGE LOGIN *************/
+
+.pageLogin {
+    max-width: 1920px;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(113, 89, 193);    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login {
+    width: 30%;
+    height: 40vh;
+    padding: 20px;
+    background-color: #fafafa;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.titleLogin h1 {
+    font-size: 1.4em;
+    color: rgb(75, 75, 75);;
+}
+
+
+.formLogin {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.formLogin input {
+    width: 70%;
+    padding: 5px;
+    margin-top: 10px;
+    border: 1px solid rgb(75, 75, 75);
+    border-radius: 5px;
+}
+#btnLogin {
+    width: 30%;
+    cursor: pointer;
+    background-color: rgb(113, 89, 193);
+    color: white;
+    border: none;
+    transition: all 0.3s ease-in-out;
+}
+#btnLogin:hover{
+    transform: scale(1.1);
+    background-color: rgb(255, 130, 58);
+    font-weight: bold;
+}
+
+
+.optionsLogin {
+    width: 90%;    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.optionsLogin span {
+    padding: 10px;
+    font-size: 0.8em;
+    color: rgb(75, 75, 75);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out ;
+}
+.optionsLogin span:hover {
+    transform: scale(1.1);
+    color: rgb(255, 130, 58);
+    font-weight: 700;
+}
+#resLogin {
+    margin-top: 10px;
+    font-weight: 700;
+    color: rgb(255, 130, 58);
+}
+
+/************ PAGE CADASTRAR *************/
+
+#pageCadUser {
+    max-width: 1920px;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(113, 89, 193);    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    z-index: -1;
+    transition: all 0.5s ease-in-out;
+}
+
+.formCadUser {
+    width: 40%;  
+    padding: 20px;
+    background-color: #fafafa;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+
+
+.titlesCadUser span {
+    width: 30px;
+    height: 30px;
+    background-color: rgb(113, 89, 193);
+    color: white;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.titlesCadUser span:hover {
+    font-weight: 700;
+    transform: scale(1.1);
+    background-color: rgb(255, 130, 58);
+}
+
+.titlesCadUser h2{
+    font-size: 1.4em;
+    color: rgb(75, 75, 75);;
+}
+
+.inputsCadUser {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputsCadUser input {
+    width: 70%;
+    padding: 10px;
+    margin-top: 15px;
+    border: 1px solid rgb(75, 75, 75);
+    border-radius: 5px;
+}
+
+#btnRegister { 
+    width: 30%;
+    cursor: pointer;    
+    background-color: rgb(113, 89, 193);
+    color: white;
+    border: none;
+    transition: all 0.3s ease-in-out;
+}
+
+#btnRegister:hover {
+    transform: scale(1.1);
+    background-color: rgb(255, 130, 58);
+    font-weight: bold;
+}
+
+#resCad {
+    margin-top: 10px;
+    font-weight: 700;
+    color: rgb(255, 130, 58);
+}
+
+/************ PAGE CHANGE PASSWORD *************/
+
+#pageChangeCad {
+    max-width: 1920px;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(113, 89, 193);    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    z-index: -1;
+    transition: all 0.5s ease-in-out;
+}
+
+.formChangeCad {
+    width: 40%;  
+    padding: 20px;
+    background-color: #fafafa;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+
+.titlesChangeCad span {
+    width: 30px;
+    height: 30px;
+    background-color: rgb(113, 89, 193);
+    color: white;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.titlesChangeCad span:hover {
+    font-weight: 700;
+    transform: scale(1.1);
+    background-color: rgb(255, 130, 58);
+}
+
+.titlesChangeCad h2{
+    font-size: 1.4em;
+    color: rgb(75, 75, 75);;
+}
+
+.inputsChangeCad {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputsChangeCad input {
+    width: 70%;
+    padding: 10px;
+    margin-top: 15px;
+    border: 1px solid rgb(75, 75, 75);
+    border-radius: 5px;
+}
+
+#btnChange { 
+    width: 30%;
+    cursor: pointer;    
+    background-color: rgb(113, 89, 193);
+    color: white;
+    border: none;
+    transition: all 0.3s ease-in-out;
+}
+
+#btnChange:hover {
+    transform: scale(1.1);
+    background-color: rgb(255, 130, 58);
+    font-weight: bold;
+}
+
+#resChange {
+    margin-top: 10px;
+    font-weight: 700;
+    color: rgb(255, 130, 58);
+}
+

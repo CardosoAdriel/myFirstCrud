@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <title>Controle de Ponto</title>
+</head>
+<body>
+
+    <section id="pageLogin" class="pageLogin">
+
+        <section class="login">
+
+            <section id="titleLogin" class="titleLogin">
+                <h1>My First CRUD</h1>
+            </section>
+    
+            <form action="#" id="formLogin" class="formLogin">
+                
+                <input type="email" placeholder="Digite seu Login" id="txtLogin">
+                <input type="password" placeholder="Digite sua senha" id="txtPassword">
+                <input type="button" value="Login" id="btnLogin">
+    
+            </form>
+    
+            <section id="optionsLogin" class="optionsLogin">
+                <span id="btnShowCadUser">Register</span>
+                <span id="btnShowReset">Change Password</span>
+            </section>
+
+        </section>
+
+    </section>
+
+    <section id="pageCadUser">
+
+        <form action="#" id="formCadUser" class="formCadUser">
+
+            <div id="titlesCadUser" class="titlesCadUser">
+                <h2>User Registration</h2>
+                <span id="btnCloseCadUser">x</span>
+            </div>
+
+            <div id="inputsCadUser" class="inputsCadUser">
+
+                <input type="text" placeholder="Nome completo ..." id="txtName">
+                <input type="email" placeholder="E-mail ..." id="txtEmail">
+                <input type="password" placeholder="Senha ..." id="txtPass">
+                <input type="password" placeholder="Confirme a senha ..." id="txtCheckPass">
+                <input type="text" placeholder="Palavra secreta ..." id="txtWord">
+                <input type="button" value="Cadastrar" id="btnRegister">
+                <p id="resCad"></p>
+
+            </div>
+
+        </form>
+
+    </section>
+
+    <section id="pageChangeCad">
+
+        <form action="#" id="formChangeCad" class="formChangeCad">
+
+            <div id="titlesChangeCad" class="titlesChangeCad">
+                <h2>Change Password</h2>
+                <span id="btnCloseChangeCad">x</span>
+            </div>
+
+            <div id="inputsChangeCad" class="inputsChangeCad">
+
+                <input type="email" placeholder="E-mail ..." id="txtEmailChange">
+                <input type="text" placeholder="Palavra secreta ..." id="txtWordChange">
+                <input type="password" placeholder="Senha ..." id="txtPassChange">
+                <input type="password" placeholder="Confirme a senha ..." id="txtCheckPassChange">
+                <input type="button" value="Change" id="btnChange">
+                <p id="resChange"></p>
+
+            </div>
+
+        </form>
+
+    </section>
+
+
+
+
+    <script src="./JS/script.js"></script>
+</body>
+</html>
